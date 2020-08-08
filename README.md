@@ -45,3 +45,30 @@ yarn electron-pack:linux
 ```
 yarn electron-pack
 ```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to follow the code style of the project and update translations if needed.
+
+## Roadmap
+
+| Feature  | Status |
+| ---| --- |
+| FFMPEG installation check  | ✅  |
+| App version check | ✅ |
+| Subtitles conversion  | ❌  |
+| Conversion notification  | ❌  |
+| Application settings  | ❌  |
+| Choose output file container  | ❌  |
+| Conversion presets  | ❌  |
+| Add streams to the output file  | ❌  |
+| Extract streams from input files  | ❌  |
+| View detailed file info  | ❌  |
+| Video conversion  | ❌  |
+| Audio files conversion  | ❌  |
+| Video comparison slider  | ❌  |
+
+## License
+[MIT](https://github.com/sunshine0709/audio-converter/blob/master/LICENSE)
