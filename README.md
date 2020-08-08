@@ -1,15 +1,9 @@
 <div align="center">
   <img src="docs/img/icon.png" width="120">
-  <h1>Recode Converter</h1>
+  <h1>Audio Converter</h1>
   <strong>A modern & simple audio converter for video files</strong>
   <img src="docs/img/app.png" width="100%" alt="Screenshot">
 </div>
-
-## Download
-
-**You can download the app on the website:**
-
-[**https://murgatt.github.io/recode-converter/**](https://murgatt.github.io/recode-converter/)
 
 ## Development
 
@@ -19,8 +13,8 @@ The application is built with Electron and React and is using FFMPEG. Make sure 
 
 ### Installation
 
-1. Clone this repository: `git clone https://github.com/murgatt/recode-converter.git`
-2. Navigate into the project directory: `cd recode-converter`
+1. Clone this repository: `git clone https://github.com/sunshine0709/audio-converter.git`
+2. Navigate into the project directory: `cd audio-converter`
 3. Install dependencies: `yarn`
 
 ### Run the app
@@ -77,4 +71,4 @@ Please make sure to follow the code style of the project and update translations
 | Video comparison slider  | ❌  |
 
 ## License
-[MIT](https://github.com/murgatt/recode-converter/blob/master/LICENSE)
+[MIT](https://github.com/sunshine0709/audio-converter/blob/master/LICENSE)
