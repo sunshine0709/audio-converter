@@ -9,7 +9,7 @@
     "scripts": {
         "build": "react-scripts build",
         "deploy": "yarn electron-pack:all --publish always",
-        "dev": "cross-env BROWSER=none concurrently \"npm run start\" \"wait-on http://localhost:3000 && npm run electron-dev\"",
+        "dev": "cross-env BROWSER=none concurrently \"yarn start\" \"wait-on http://localhost:3000 && yarn electron-dev\"",
         "eject": "react-scripts eject",
         "electron-dev": "nodemon --watch public --exec \"electron .\"",
         "electron-pack": "electron-builder -c.extraMetadata.main=build/electron.js",
