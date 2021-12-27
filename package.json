@@ -1,22 +1,15 @@
 {
-    "name": "recode-converter",
+    "name": "audio-converter",
     "version": "1.2.0",
     "description": "A modern & simple audio converter for video files",
     "main": "public/electron.js",
     "private": false,
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/murgatt/recode-converter.git"
-    },
-    "author": "murgatt",
+    "author": "Andrii",
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/murgatt/recode-converter/issues"
-    },
     "scripts": {
         "build": "react-scripts build",
         "deploy": "yarn electron-pack:all --publish always",
-        "dev": "concurrently \"BROWSER=none yarn start\" \"wait-on http://localhost:3000 && yarn electron-dev\"",
+        "dev": "cross-env BROWSER=none concurrently \"npm run start\" \"wait-on http://localhost:3000 && npm run electron-dev\"",
         "eject": "react-scripts eject",
         "electron-dev": "nodemon --watch public --exec \"electron .\"",
         "electron-pack": "electron-builder -c.extraMetadata.main=build/electron.js",
@@ -37,6 +30,7 @@
         "@material-ui/core": "^4.9.13",
         "@material-ui/icons": "^4.9.1",
         "classnames": "^2.2.6",
+        "cross-env": "^7.0.3",
         "electron-is-dev": "^1.2.0",
         "fix-path": "^3.0.0",
         "fluent-ffmpeg": "^2.1.2",
@@ -77,8 +71,8 @@
         "wait-on": "^4.0.1"
     },
     "build": {
-        "appId": "com.murgatt.recode-converter",
-        "productName": "Recode Converter",
+        "appId": "com.andrii.audio-converter",
+        "productName": "Audio Converter",
         "files": [
             "build/**/*",
             "node_modules/**/*"
